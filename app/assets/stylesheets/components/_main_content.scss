@@ -1,0 +1,122 @@
+#main {
+  margin-top: 20px;
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+
+
+  iframe {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 25px;
+    font-style: italic;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  sub {
+    font-size: 12px;
+    padding: 0px;
+    color: $gray;
+    font-weight: 400;
+    line-height: 12px;
+  }
+
+  sup {
+    font-size: 10px;
+    padding: 0px;
+    color: $dark-gray;
+    font-weight: 400;
+    line-height: 12px;
+    text-transform: uppercase;
+  }
+
+  ul {
+    list-style: disc;
+    margin-left: 15px;
+  }
+
+  ul.news {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 1.6em;
+    li {
+      margin-bottom: 10px;
+    }
+  }
+
+  ul.books {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.2em;
+    li {
+      margin-top: 5px;
+    }
+  }
+
+  .comments {
+    color: $blue;
+  }
+
+  .opinion_title {
+    text-align: center;
+  }
+
+  .sign-up {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid $light-gray;
+  }
+
+  input {
+    padding: 10px;
+  }
+
+  input[type=text] {
+    float: left;
+    width: 80%;
+  }
+
+  input[type=button] {
+    @extend button;
+
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    position: absolute;
+
+  }
+
+  .over {
+    overflow: hidden;
+  }
+
+  .over img {
+    height: 100px;
+    // width: 100%;
+    width: 600px;
+
+    clip: auto;
+  }
+
+  .unsubscribe {
+    font-size: 10px;
+  }
+
+  //
+  //
+  // font-weight: 700;
+  // padding: 10px;
+  //
+
+}
